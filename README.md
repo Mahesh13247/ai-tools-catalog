@@ -70,5 +70,4 @@ Follow these steps to run the project locally:
 4.  **Open your browser**
     Navigate to `http://localhost:3000` to see the app in action.
 
-
-                                                                  *Built with ❤️ by [K Mahesh Kumar Achary]**
+      *Built with ❤️ by [K Mahesh Kumar Achary]**
