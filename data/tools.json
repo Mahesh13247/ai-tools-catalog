@@ -1,0 +1,842 @@
+[
+    {
+        "id": "1",
+        "name": "ChatGPT",
+        "slug": "chatgpt",
+        "description": "Advanced conversational AI powered by GPT-4 for natural language understanding and generation.",
+        "longDescription": "ChatGPT is a state-of-the-art language model developed by OpenAI that can engage in human-like conversations, answer questions, write code, create content, and assist with a wide variety of tasks. Built on the GPT-4 architecture, it understands context and nuance to provide helpful, accurate responses.",
+        "category": "Text Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Natural language conversations",
+            "Code generation and debugging",
+            "Content creation and editing",
+            "Multi-language support",
+            "Context-aware responses",
+            "API access available"
+        ],
+        "website": "https://chat.openai.com",
+        "logo": "🤖",
+        "rating": 4.8,
+        "reviewCount": 15420,
+        "tags": [
+            "NLP",
+            "Chatbot",
+            "GPT-4",
+            "OpenAI"
+        ],
+        "launchDate": "2022-11-30"
+    },
+    {
+        "id": "2",
+        "name": "Midjourney",
+        "slug": "midjourney",
+        "description": "AI-powered image generation tool that creates stunning artwork from text descriptions.",
+        "longDescription": "Midjourney is an independent research lab that produces an AI program under the same name that creates images from textual descriptions. Known for its artistic and dreamlike aesthetic, Midjourney has become one of the most popular AI art generators, used by artists, designers, and creators worldwide.",
+        "category": "Image Generation",
+        "pricingModel": "Subscription",
+        "features": [
+            "Text-to-image generation",
+            "High-resolution outputs",
+            "Artistic style variations",
+            "Community gallery",
+            "Discord integration",
+            "Commercial usage rights"
+        ],
+        "website": "https://midjourney.com",
+        "logo": "🎨",
+        "rating": 4.7,
+        "reviewCount": 8932,
+        "tags": [
+            "Art",
+            "Image Generation",
+            "Creative",
+            "Discord"
+        ],
+        "launchDate": "2022-07-12"
+    },
+    {
+        "id": "3",
+        "name": "GitHub Copilot",
+        "slug": "github-copilot",
+        "description": "AI pair programmer that helps you write code faster with intelligent suggestions.",
+        "longDescription": "GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI. It suggests whole lines or entire functions right inside your editor, helping developers write code faster and with fewer errors. Trained on billions of lines of code, it understands context and coding patterns across dozens of programming languages.",
+        "category": "Code Assistant",
+        "pricingModel": "Subscription",
+        "features": [
+            "Real-time code suggestions",
+            "Multi-language support",
+            "Context-aware completions",
+            "IDE integration",
+            "Code explanation",
+            "Test generation"
+        ],
+        "website": "https://github.com/features/copilot",
+        "logo": "💻",
+        "rating": 4.6,
+        "reviewCount": 12305,
+        "tags": [
+            "Coding",
+            "Developer Tools",
+            "Productivity",
+            "GitHub"
+        ],
+        "launchDate": "2021-06-29"
+    },
+    {
+        "id": "4",
+        "name": "Runway ML",
+        "slug": "runway-ml",
+        "description": "Creative AI toolkit for video editing, image generation, and multimedia content creation.",
+        "longDescription": "Runway is a next-generation creative suite powered by AI. It offers a comprehensive set of tools for video editing, image generation, and creative experimentation. From text-to-video to advanced video editing features, Runway empowers creators to bring their ideas to life with cutting-edge AI technology.",
+        "category": "Video Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Text-to-video generation",
+            "Video editing with AI",
+            "Image-to-video conversion",
+            "Green screen removal",
+            "Motion tracking",
+            "Real-time collaboration"
+        ],
+        "website": "https://runwayml.com",
+        "logo": "🎬",
+        "rating": 4.5,
+        "reviewCount": 3421,
+        "tags": [
+            "Video",
+            "Creative",
+            "Editing",
+            "Multimedia"
+        ],
+        "launchDate": "2018-06-01"
+    },
+    {
+        "id": "5",
+        "name": "ElevenLabs",
+        "slug": "elevenlabs",
+        "description": "Advanced AI voice synthesis platform for creating realistic text-to-speech audio.",
+        "longDescription": "ElevenLabs is a voice AI research and deployment company that specializes in natural-sounding speech synthesis. Their technology can clone voices, generate speech in multiple languages, and create highly realistic voiceovers for various applications including audiobooks, videos, and accessibility tools.",
+        "category": "Audio Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Text-to-speech conversion",
+            "Voice cloning",
+            "Multi-language support",
+            "Emotion control",
+            "API access",
+            "High-quality audio output"
+        ],
+        "website": "https://elevenlabs.io",
+        "logo": "🎙️",
+        "rating": 4.7,
+        "reviewCount": 5678,
+        "tags": [
+            "Audio",
+            "Voice",
+            "TTS",
+            "Speech Synthesis"
+        ],
+        "launchDate": "2022-01-15"
+    },
+    {
+        "id": "6",
+        "name": "Notion AI",
+        "slug": "notion-ai",
+        "description": "AI-powered writing assistant integrated into Notion for enhanced productivity.",
+        "longDescription": "Notion AI is an intelligent writing assistant built directly into Notion's workspace platform. It helps users write better, think bigger, and work faster by providing AI-powered features like content generation, summarization, translation, and brainstorming assistance, all within the familiar Notion interface.",
+        "category": "Productivity",
+        "pricingModel": "Subscription",
+        "features": [
+            "Content generation",
+            "Text summarization",
+            "Writing improvement",
+            "Translation",
+            "Brainstorming assistance",
+            "Seamless Notion integration"
+        ],
+        "website": "https://notion.so/product/ai",
+        "logo": "📝",
+        "rating": 4.4,
+        "reviewCount": 7234,
+        "tags": [
+            "Productivity",
+            "Writing",
+            "Workspace",
+            "Notes"
+        ],
+        "launchDate": "2023-02-22"
+    },
+    {
+        "id": "7",
+        "name": "Perplexity AI",
+        "slug": "perplexity-ai",
+        "description": "AI-powered search engine that provides accurate answers with cited sources.",
+        "longDescription": "Perplexity AI is an answer engine that uses advanced AI to provide direct answers to questions with citations and sources. Unlike traditional search engines, it synthesizes information from multiple sources to give you comprehensive, accurate answers while showing you exactly where the information comes from.",
+        "category": "Research",
+        "pricingModel": "Freemium",
+        "features": [
+            "AI-powered search",
+            "Source citations",
+            "Follow-up questions",
+            "Multi-source synthesis",
+            "Real-time information",
+            "Mobile app available"
+        ],
+        "website": "https://perplexity.ai",
+        "logo": "🔍",
+        "rating": 4.6,
+        "reviewCount": 4521,
+        "tags": [
+            "Search",
+            "Research",
+            "Information",
+            "AI Search"
+        ],
+        "launchDate": "2022-12-07"
+    },
+    {
+        "id": "8",
+        "name": "Stable Diffusion",
+        "slug": "stable-diffusion",
+        "description": "Open-source AI model for generating high-quality images from text descriptions.",
+        "longDescription": "Stable Diffusion is a deep learning, text-to-image model released in 2022. It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by text prompts. Being open-source, it has spawned a massive community and ecosystem.",
+        "category": "Image Generation",
+        "pricingModel": "Free",
+        "features": [
+            "Text-to-image generation",
+            "Image-to-image transformation",
+            "Inpainting and outpainting",
+            "Open-source model",
+            "Local deployment option",
+            "Extensive community support"
+        ],
+        "website": "https://stability.ai",
+        "logo": "🖼️",
+        "rating": 4.5,
+        "reviewCount": 9876,
+        "tags": [
+            "Open Source",
+            "Image Generation",
+            "AI Art",
+            "Stable Diffusion"
+        ],
+        "launchDate": "2022-08-22"
+    },
+    {
+        "id": "9",
+        "name": "Figma AI",
+        "slug": "figma-ai",
+        "description": "AI-powered design tools integrated into Figma for faster prototyping and design.",
+        "longDescription": "Figma AI brings artificial intelligence directly into the design workflow. It helps designers create mockups faster, generate design variations, write copy, and automate repetitive tasks. By integrating AI into the collaborative design platform, Figma AI enables teams to iterate more quickly and explore more creative possibilities.",
+        "category": "Design",
+        "pricingModel": "Freemium",
+        "features": [
+            "AI-powered design suggestions",
+            "Auto-layout optimization",
+            "Copy generation",
+            "Design variations",
+            "Smart component creation",
+            "Collaborative features"
+        ],
+        "website": "https://figma.com",
+        "logo": "🎯",
+        "rating": 4.3,
+        "reviewCount": 6543,
+        "tags": [
+            "Design",
+            "UI/UX",
+            "Prototyping",
+            "Collaboration"
+        ],
+        "launchDate": "2023-06-21"
+    },
+    {
+        "id": "10",
+        "name": "Claude",
+        "slug": "claude",
+        "description": "Advanced AI assistant by Anthropic focused on safety, accuracy, and helpfulness.",
+        "longDescription": "Claude is a next-generation AI assistant created by Anthropic. Built with a focus on safety and reliability, Claude excels at a wide variety of conversational and text processing tasks while maintaining high standards for accuracy and helpfulness. It can assist with analysis, writing, math, coding, and much more.",
+        "category": "Text Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Advanced reasoning",
+            "Long-context understanding",
+            "Code generation",
+            "Document analysis",
+            "Safe and reliable outputs",
+            "API access"
+        ],
+        "website": "https://claude.ai",
+        "logo": "🧠",
+        "rating": 4.7,
+        "reviewCount": 8765,
+        "tags": [
+            "AI Assistant",
+            "Chatbot",
+            "Anthropic",
+            "Safety"
+        ],
+        "launchDate": "2023-03-14"
+    },
+    {
+        "id": "11",
+        "name": "Jasper AI",
+        "slug": "jasper-ai",
+        "description": "AI content platform for marketing teams to create high-quality content at scale.",
+        "longDescription": "Jasper is an AI writing assistant designed specifically for marketing and content teams. It helps create blog posts, social media content, ad copy, emails, and more. With brand voice customization and team collaboration features, Jasper enables businesses to produce consistent, on-brand content efficiently.",
+        "category": "Text Generation",
+        "pricingModel": "Subscription",
+        "features": [
+            "Marketing copy generation",
+            "Brand voice customization",
+            "SEO optimization",
+            "Team collaboration",
+            "Multiple content templates",
+            "Browser extension"
+        ],
+        "website": "https://jasper.ai",
+        "logo": "✍️",
+        "rating": 4.5,
+        "reviewCount": 5432,
+        "tags": [
+            "Marketing",
+            "Content",
+            "Copywriting",
+            "SEO"
+        ],
+        "launchDate": "2021-02-01"
+    },
+    {
+        "id": "12",
+        "name": "DALL-E 3",
+        "slug": "dall-e-3",
+        "description": "OpenAI's latest image generation model with improved accuracy and detail.",
+        "longDescription": "DALL-E 3 is OpenAI's most advanced text-to-image generation system. It understands significantly more nuance and detail than previous versions, allowing you to easily translate your ideas into exceptionally accurate images. Integrated with ChatGPT, it makes creating and iterating on images more intuitive than ever.",
+        "category": "Image Generation",
+        "pricingModel": "Subscription",
+        "features": [
+            "High-fidelity image generation",
+            "ChatGPT integration",
+            "Improved prompt understanding",
+            "Safety mitigations",
+            "Commercial usage rights",
+            "Multiple aspect ratios"
+        ],
+        "website": "https://openai.com/dall-e-3",
+        "logo": "🖌️",
+        "rating": 4.6,
+        "reviewCount": 7890,
+        "tags": [
+            "Image Generation",
+            "OpenAI",
+            "Art",
+            "Creative"
+        ],
+        "launchDate": "2023-09-20"
+    },
+    {
+        "id": "13",
+        "name": "Copy.ai",
+        "slug": "copy-ai",
+        "description": "AI-powered copywriting tool for marketing content and sales copy.",
+        "longDescription": "Copy.ai is an AI writing tool that helps marketers and entrepreneurs create compelling copy for ads, emails, websites, and social media. With dozens of templates and tools, it streamlines the content creation process and helps overcome writer's block while maintaining brand consistency.",
+        "category": "Text Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "90+ copywriting templates",
+            "Multi-language support",
+            "Blog post wizard",
+            "Social media content",
+            "Email campaigns",
+            "Product descriptions"
+        ],
+        "website": "https://copy.ai",
+        "logo": "📄",
+        "rating": 4.4,
+        "reviewCount": 4321,
+        "tags": [
+            "Copywriting",
+            "Marketing",
+            "Content",
+            "Sales"
+        ],
+        "launchDate": "2020-10-15"
+    },
+    {
+        "id": "14",
+        "name": "Synthesia",
+        "slug": "synthesia",
+        "description": "AI video generation platform that creates professional videos with AI avatars.",
+        "longDescription": "Synthesia is an AI video creation platform that allows you to create professional videos without cameras, microphones, or actors. Simply type your script, choose an AI avatar, and generate videos in minutes. Perfect for training videos, product demos, and marketing content in over 120 languages.",
+        "category": "Video Generation",
+        "pricingModel": "Subscription",
+        "features": [
+            "AI avatar generation",
+            "120+ languages and accents",
+            "Custom avatar creation",
+            "Screen recording",
+            "Video templates",
+            "Team collaboration"
+        ],
+        "website": "https://synthesia.io",
+        "logo": "🎥",
+        "rating": 4.5,
+        "reviewCount": 3210,
+        "tags": [
+            "Video",
+            "AI Avatars",
+            "Training",
+            "Marketing"
+        ],
+        "launchDate": "2020-03-01"
+    },
+    {
+        "id": "15",
+        "name": "Grammarly",
+        "slug": "grammarly",
+        "description": "AI-powered writing assistant for grammar, spelling, and style improvements.",
+        "longDescription": "Grammarly is a comprehensive AI writing assistant that helps you write clearly and effectively. It checks for grammar, spelling, punctuation, clarity, engagement, and delivery mistakes, offering suggestions to improve your writing. With tone detection and plagiarism checking, it's trusted by millions of users worldwide.",
+        "category": "Productivity",
+        "pricingModel": "Freemium",
+        "features": [
+            "Grammar and spelling check",
+            "Tone detection",
+            "Plagiarism checker",
+            "Style suggestions",
+            "Browser extension",
+            "Desktop app"
+        ],
+        "website": "https://grammarly.com",
+        "logo": "📚",
+        "rating": 4.6,
+        "reviewCount": 18234,
+        "tags": [
+            "Writing",
+            "Grammar",
+            "Productivity",
+            "Editing"
+        ],
+        "launchDate": "2009-07-01"
+    },
+    {
+        "id": "16",
+        "name": "Canva AI",
+        "slug": "canva-ai",
+        "description": "AI-powered design tools integrated into Canva's graphic design platform.",
+        "longDescription": "Canva AI brings powerful artificial intelligence features to the popular design platform. With Magic Design, Text to Image, and Magic Eraser, users can create professional designs faster than ever. The AI assists with layout suggestions, image generation, background removal, and content writing.",
+        "category": "Design",
+        "pricingModel": "Freemium",
+        "features": [
+            "Magic Design templates",
+            "Text-to-image generation",
+            "Background remover",
+            "Magic Eraser",
+            "AI writing assistant",
+            "Brand kit integration"
+        ],
+        "website": "https://canva.com",
+        "logo": "🎨",
+        "rating": 4.7,
+        "reviewCount": 12456,
+        "tags": [
+            "Design",
+            "Graphics",
+            "Templates",
+            "Marketing"
+        ],
+        "launchDate": "2023-03-15"
+    },
+    {
+        "id": "17",
+        "name": "Descript",
+        "slug": "descript",
+        "description": "AI-powered video and podcast editing through text-based editing.",
+        "longDescription": "Descript is a revolutionary audio and video editor that works like a document. Edit your media by editing text, remove filler words with one click, and use AI voices to fix mistakes. Perfect for podcasters, video creators, and content teams who want to streamline their editing workflow.",
+        "category": "Video Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Text-based editing",
+            "Automatic transcription",
+            "Filler word removal",
+            "AI voice cloning",
+            "Screen recording",
+            "Multi-track editing"
+        ],
+        "website": "https://descript.com",
+        "logo": "🎞️",
+        "rating": 4.6,
+        "reviewCount": 5678,
+        "tags": [
+            "Video Editing",
+            "Podcast",
+            "Transcription",
+            "Audio"
+        ],
+        "launchDate": "2017-08-01"
+    },
+    {
+        "id": "18",
+        "name": "Otter.ai",
+        "slug": "otter-ai",
+        "description": "AI meeting assistant that records audio, writes notes, and generates summaries.",
+        "longDescription": "Otter.ai is an AI-powered transcription and note-taking tool that captures and organizes meeting conversations. It provides real-time transcription, automated meeting summaries, and action item extraction. Integrated with Zoom, Google Meet, and Microsoft Teams, it's perfect for remote teams and professionals.",
+        "category": "Productivity",
+        "pricingModel": "Freemium",
+        "features": [
+            "Real-time transcription",
+            "Meeting summaries",
+            "Action item extraction",
+            "Speaker identification",
+            "Video conferencing integration",
+            "Searchable transcripts"
+        ],
+        "website": "https://otter.ai",
+        "logo": "🦦",
+        "rating": 4.5,
+        "reviewCount": 6789,
+        "tags": [
+            "Transcription",
+            "Meetings",
+            "Productivity",
+            "Notes"
+        ],
+        "launchDate": "2018-02-01"
+    },
+    {
+        "id": "19",
+        "name": "Replicate",
+        "slug": "replicate",
+        "description": "Platform to run and deploy machine learning models in the cloud.",
+        "longDescription": "Replicate makes it easy to run machine learning models in the cloud. You can run open-source models or deploy your own custom models with just a few lines of code. With a simple API and pre-built models for image generation, text processing, and more, it's perfect for developers building AI-powered applications.",
+        "category": "Code Assistant",
+        "pricingModel": "Paid",
+        "features": [
+            "Run ML models via API",
+            "Deploy custom models",
+            "Pre-built model library",
+            "Automatic scaling",
+            "Version control",
+            "Pay-per-use pricing"
+        ],
+        "website": "https://replicate.com",
+        "logo": "⚙️",
+        "rating": 4.4,
+        "reviewCount": 2345,
+        "tags": [
+            "Machine Learning",
+            "API",
+            "Developer Tools",
+            "Cloud"
+        ],
+        "launchDate": "2019-11-01"
+    },
+    {
+        "id": "20",
+        "name": "Hugging Face",
+        "slug": "hugging-face",
+        "description": "Open-source platform for machine learning models and datasets.",
+        "longDescription": "Hugging Face is the leading platform for sharing and collaborating on machine learning models. With over 100,000 pre-trained models, datasets, and ML apps, it's the go-to resource for AI developers. The platform supports transformers, diffusion models, and more, with easy integration into your projects.",
+        "category": "Code Assistant",
+        "pricingModel": "Freemium",
+        "features": [
+            "100,000+ pre-trained models",
+            "Model hosting and deployment",
+            "Datasets library",
+            "Transformers library",
+            "Spaces for ML apps",
+            "Community collaboration"
+        ],
+        "website": "https://huggingface.co",
+        "logo": "🤗",
+        "rating": 4.8,
+        "reviewCount": 9876,
+        "tags": [
+            "Machine Learning",
+            "Open Source",
+            "NLP",
+            "Developer Tools"
+        ],
+        "launchDate": "2016-03-01"
+    },
+    {
+        "id": "21",
+        "name": "Lumen5",
+        "slug": "lumen5",
+        "description": "AI-powered video creation platform that turns blog posts into videos.",
+        "longDescription": "Lumen5 is a video creation platform powered by AI that enables anyone to create engaging video content in minutes. Simply paste a blog post URL or script, and Lumen5's AI will automatically create a video storyboard with relevant images, video clips, and music. Perfect for social media marketing and content repurposing.",
+        "category": "Video Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Blog-to-video conversion",
+            "AI-powered storyboarding",
+            "Media library access",
+            "Brand customization",
+            "Social media formats",
+            "Automated captions"
+        ],
+        "website": "https://lumen5.com",
+        "logo": "📹",
+        "rating": 4.3,
+        "reviewCount": 4567,
+        "tags": [
+            "Video",
+            "Marketing",
+            "Social Media",
+            "Content"
+        ],
+        "launchDate": "2017-05-01"
+    },
+    {
+        "id": "22",
+        "name": "Writesonic",
+        "slug": "writesonic",
+        "description": "AI writing assistant for creating SEO-optimized content and marketing copy.",
+        "longDescription": "Writesonic is an AI-powered writing tool that helps create SEO-optimized blog posts, landing pages, ads, and product descriptions. With features like article rewriting, paraphrasing, and content expansion, it's designed to help marketers and content creators produce high-quality content faster while maintaining SEO best practices.",
+        "category": "Text Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "SEO-optimized content",
+            "Article writer",
+            "Landing page copy",
+            "Ad copy generation",
+            "Paraphrasing tool",
+            "Chrome extension"
+        ],
+        "website": "https://writesonic.com",
+        "logo": "✏️",
+        "rating": 4.4,
+        "reviewCount": 5234,
+        "tags": [
+            "Writing",
+            "SEO",
+            "Marketing",
+            "Content"
+        ],
+        "launchDate": "2021-01-01"
+    },
+    {
+        "id": "23",
+        "name": "Beautiful.ai",
+        "slug": "beautiful-ai",
+        "description": "AI-powered presentation software that designs slides automatically.",
+        "longDescription": "Beautiful.ai is a presentation software that uses AI to automatically design beautiful slides as you create them. With smart templates and real-time design adaptation, you can focus on your content while the AI handles the layout, formatting, and visual design. Perfect for business presentations and pitch decks.",
+        "category": "Design",
+        "pricingModel": "Freemium",
+        "features": [
+            "Auto-formatting slides",
+            "Smart templates",
+            "Team collaboration",
+            "Brand kit",
+            "Analytics",
+            "Export to PowerPoint"
+        ],
+        "website": "https://beautiful.ai",
+        "logo": "📊",
+        "rating": 4.5,
+        "reviewCount": 3456,
+        "tags": [
+            "Presentations",
+            "Design",
+            "Business",
+            "Templates"
+        ],
+        "launchDate": "2017-09-01"
+    },
+    {
+        "id": "24",
+        "name": "Pictory",
+        "slug": "pictory",
+        "description": "AI video creation tool that turns long-form content into short videos.",
+        "longDescription": "Pictory uses AI to automatically create short, branded videos from long-form content. Upload a webinar, podcast, or blog post, and Pictory will extract key moments, add captions, and create shareable video clips. Ideal for content marketers looking to repurpose content for social media.",
+        "category": "Video Generation",
+        "pricingModel": "Subscription",
+        "features": [
+            "Long-form to short-form conversion",
+            "Automatic captioning",
+            "Highlight extraction",
+            "Brand customization",
+            "Stock footage library",
+            "Social media optimization"
+        ],
+        "website": "https://pictory.ai",
+        "logo": "🎬",
+        "rating": 4.4,
+        "reviewCount": 2890,
+        "tags": [
+            "Video",
+            "Content Repurposing",
+            "Social Media",
+            "Marketing"
+        ],
+        "launchDate": "2020-06-01"
+    },
+    {
+        "id": "25",
+        "name": "Murf AI",
+        "slug": "murf-ai",
+        "description": "AI voice generator for creating realistic voiceovers and narrations.",
+        "longDescription": "Murf AI is a versatile AI voice generator that enables you to create studio-quality voiceovers in minutes. With 120+ voices in 20+ languages, voice cloning capabilities, and an intuitive editor, Murf makes it easy to add professional narration to videos, presentations, and e-learning content.",
+        "category": "Audio Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "120+ AI voices",
+            "Voice cloning",
+            "20+ languages",
+            "Voice customization",
+            "Video sync",
+            "Commercial usage rights"
+        ],
+        "website": "https://murf.ai",
+        "logo": "🎤",
+        "rating": 4.6,
+        "reviewCount": 4123,
+        "tags": [
+            "Voice",
+            "Audio",
+            "TTS",
+            "Voiceover"
+        ],
+        "launchDate": "2020-08-01"
+    },
+    {
+        "id": "26",
+        "name": "Tabnine",
+        "slug": "tabnine",
+        "description": "AI code completion tool that works with your favorite IDE.",
+        "longDescription": "Tabnine is an AI assistant that speeds up delivery and keeps your code safe. It provides intelligent code completions based on your code patterns and best practices. Supporting all major programming languages and IDEs, Tabnine learns from your codebase to provide personalized suggestions while keeping your code private.",
+        "category": "Code Assistant",
+        "pricingModel": "Freemium",
+        "features": [
+            "AI code completions",
+            "Multi-language support",
+            "IDE integration",
+            "Team learning",
+            "Private model training",
+            "Code pattern recognition"
+        ],
+        "website": "https://tabnine.com",
+        "logo": "🔧",
+        "rating": 4.5,
+        "reviewCount": 7654,
+        "tags": [
+            "Coding",
+            "IDE",
+            "Productivity",
+            "Developer Tools"
+        ],
+        "launchDate": "2018-01-01"
+    },
+    {
+        "id": "27",
+        "name": "Tome",
+        "slug": "tome",
+        "description": "AI-powered storytelling tool for creating presentations and narratives.",
+        "longDescription": "Tome is an AI-native format for creating and sharing immersive narratives. It combines AI-generated content, interactive embeds, and responsive layouts to help you tell compelling stories. Whether you're creating a pitch deck, product spec, or creative portfolio, Tome makes it easy to build beautiful, engaging presentations.",
+        "category": "Design",
+        "pricingModel": "Freemium",
+        "features": [
+            "AI content generation",
+            "Interactive embeds",
+            "Responsive layouts",
+            "Image generation",
+            "Collaboration tools",
+            "Analytics"
+        ],
+        "website": "https://tome.app",
+        "logo": "📖",
+        "rating": 4.4,
+        "reviewCount": 2987,
+        "tags": [
+            "Presentations",
+            "Storytelling",
+            "Design",
+            "Collaboration"
+        ],
+        "launchDate": "2022-09-01"
+    },
+    {
+        "id": "28",
+        "name": "Fireflies.ai",
+        "slug": "fireflies-ai",
+        "description": "AI meeting assistant that records, transcribes, and analyzes conversations.",
+        "longDescription": "Fireflies.ai is an AI voice assistant that helps your team record, transcribe, search, and analyze voice conversations. It integrates with all major video conferencing platforms and automatically captures meeting notes, action items, and key moments. Perfect for sales teams, recruiters, and remote workers.",
+        "category": "Productivity",
+        "pricingModel": "Freemium",
+        "features": [
+            "Automatic transcription",
+            "Meeting summaries",
+            "CRM integration",
+            "Conversation analytics",
+            "Searchable transcripts",
+            "Team collaboration"
+        ],
+        "website": "https://fireflies.ai",
+        "logo": "🔥",
+        "rating": 4.5,
+        "reviewCount": 5432,
+        "tags": [
+            "Meetings",
+            "Transcription",
+            "Productivity",
+            "Sales"
+        ],
+        "launchDate": "2019-04-01"
+    },
+    {
+        "id": "29",
+        "name": "Wordtune",
+        "slug": "wordtune",
+        "description": "AI writing companion that helps you say exactly what you mean.",
+        "longDescription": "Wordtune is an AI-powered writing assistant that goes beyond grammar and spelling to help you write with clarity and confidence. It offers suggestions to rewrite sentences, adjust tone, expand or shorten text, and find better ways to express your ideas. Available as a browser extension and editor.",
+        "category": "Productivity",
+        "pricingModel": "Freemium",
+        "features": [
+            "Sentence rewriting",
+            "Tone adjustment",
+            "Text expansion",
+            "Summarization",
+            "Browser extension",
+            "Multi-language support"
+        ],
+        "website": "https://wordtune.com",
+        "logo": "🎵",
+        "rating": 4.6,
+        "reviewCount": 6789,
+        "tags": [
+            "Writing",
+            "Productivity",
+            "Editing",
+            "Communication"
+        ],
+        "launchDate": "2020-10-01"
+    },
+    {
+        "id": "30",
+        "name": "Krisp",
+        "slug": "krisp",
+        "description": "AI-powered noise cancellation for crystal-clear online calls.",
+        "longDescription": "Krisp is an AI-powered audio enhancement tool that removes background noise and echo from your calls in real-time. It works with any communication app and improves both your microphone and speaker audio. Perfect for remote workers, podcasters, and anyone who needs professional audio quality in noisy environments.",
+        "category": "Audio Generation",
+        "pricingModel": "Freemium",
+        "features": [
+            "Background noise removal",
+            "Echo cancellation",
+            "Works with any app",
+            "Real-time processing",
+            "Meeting transcription",
+            "Voice clarity enhancement"
+        ],
+        "website": "https://krisp.ai",
+        "logo": "🎧",
+        "rating": 4.7,
+        "reviewCount": 8901,
+        "tags": [
+            "Audio",
+            "Noise Cancellation",
+            "Productivity",
+            "Remote Work"
+        ],
+        "launchDate": "2017-11-01"
+    }
+]
