@@ -4,7 +4,7 @@ A modern, production-ready directory of the best AI tools, built with **Next.js 
 
 This project demonstrates a high-performance, SEO-optimized web application featuring dynamic search, filtering, and a premium SaaS-style user interface.
 
-![AI Tools Catalog Preview](/opengraph-image.png)
+![AI Tools Catalog Preview] - https://ai-tools-catalog-rouge.vercel.app/
 
 ## 📖 Project Overview
 
