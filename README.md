@@ -70,49 +70,6 @@ Follow these steps to run the project locally:
 4.  **Open your browser**
     Navigate to `http://localhost:3000` to see the app in action.
 
----
 
-## 📦 Deployment
 
-This project is optimized for deployment on **Vercel**:
-
-1.  Push your code to a GitHub repository.
-2.  Import the project into Vercel.
-3.  Deploy! (Framework settings are detected automatically).
-
-*Note: The `sitemap.xml` and `robots.txt` are automatically generated based on the production URL.*
-
----
-
-## 💡 Source & Inspiration
-
-The goal was to build a "Product Hunt" style directory that feels premium and trustworthy. 
-- **Design Inspiration:** Modern SaaS landing pages (Linear, Raycast) using subtle borders, glassmorphism, and soft shadows.
-- **Dataset:** Manually curated list of top AI tools in 2024-2025.
-
----
-
-## 🤖 AI Prompts Used
-
-Here are 3 key prompts that helped accelerate development:
-
-1.  *"Create a comprehensive TypeScript interface for an 'AI Tool' entity, including enums for Categories (Text, Image, Video, etc.) and Pricing Models (Free, Freemium, Paid). Then, generate a JSON dataset of 30 popular tools matching this schema."*
-
-2.  *"Build a responsive grid component in React using Tailwind CSS that displays these tools. Implement client-side filtering by category and specific sort options like 'Highest Rated' and 'Newest First'. Ensure the empty state is visually appealing."*
-
-3.  *"Refactor the listings page to separate the interactive search/filter logic into a Client Component (`ToolsList`) while keeping the parent `page.tsx` as a Server Component to ensure `generateMetadata` works correctly for SEO."*
-
----
-
-## 🔮 Future Improvements (With 2 More Days)
-
-If I had 48 more hours, here is what I would add:
-
-1.  **Supabase Integration:** Move data from JSON to a Postgres database to allow dynamic updates without rebuilding the site.
-2.  **User Authentication:** Add Clerk or NextAuth to let users "save" their favorite tools or submit new ones.
-3.  **Analytics & tracking:** Integrate PostHog or Google Analytics to track popular search terms and clicks on external links.
-4.  **Submission Form:** build a `react-hook-form` page for creators to submit their own AI tools.
-
----
-
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by [K Mahesh Kumar Achary]**

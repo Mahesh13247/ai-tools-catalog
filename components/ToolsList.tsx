@@ -89,7 +89,7 @@ export default function ToolsList() {
                         No tools found
                     </h3>
                     <p className="mb-6 text-gray-600 dark:text-gray-400">
-                        We couldn't find any tools matching your criteria.
+                        We couldn&apos;t find any tools matching your criteria.
                     </p>
                     <div className="space-y-2 text-sm text-gray-500 dark:text-gray-500">
                         <p>Try:</p>

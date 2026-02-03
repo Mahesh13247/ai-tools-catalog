@@ -2,10 +2,20 @@
 
 import Link from "next/link";
 import { Moon, Sun, Sparkles } from "lucide-react";
-import { useTheme } from "./ThemeProvider";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
-    const { theme, toggleTheme } = useTheme();
+    const { theme, setTheme, resolvedTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    const toggleTheme = () => {
+        setTheme(resolvedTheme === "light" ? "dark" : "light");
+    };
 
     return (
         <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white/80 backdrop-blur-md dark:border-gray-800/60 dark:bg-gray-950/80">
@@ -42,10 +52,12 @@ export default function Navbar() {
                             className="rounded-lg p-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
                             aria-label="Toggle theme"
                         >
-                            {theme === "light" ? (
-                                <Moon className="h-5 w-5 text-gray-700 dark:text-gray-300" />
-                            ) : (
+                            {!mounted ? (
+                                <div className="h-5 w-5" />
+                            ) : resolvedTheme === "dark" ? (
                                 <Sun className="h-5 w-5 text-gray-700 dark:text-gray-300" />
+                            ) : (
+                                <Moon className="h-5 w-5 text-gray-700 dark:text-gray-300" />
                             )}
                         </button>
                     </div>
